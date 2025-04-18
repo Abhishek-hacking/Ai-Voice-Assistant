@@ -34,28 +34,23 @@ requests	Fetching data from APIs
 webbrowser	Opening URLs
 tkinter	GUI framework
 ecapture	Capturing images via webcam
+
 🚀 How to Run
+
 1. Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/yourusername/ai-voice-assistant.git
 cd ai-voice-assistant
+
 2. Install Dependencies
 Make sure you have Python installed (preferably 3.10+).
-
 Install required libraries:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Or install individually:
+pip install speechrecognition pyttsx3 wikipedia requests pywhatkit pyjokes capture
 
-bash
-Copy
-Edit
-pip install speechrecognition pyttsx3 wikipedia requests pywhatkit pyjokes ecapture
 3. Run the Application
 bash
 Copy
@@ -71,7 +66,7 @@ Use Python 3.10+ for best compatibility.
 Works best in quiet environments for accurate speech recognition.
 
 💡 Future Enhancements
-Wake-word detection (e.g., "Hey G-One")
+Wake-word detection
 
 Integration with Google Calendar or Emails
 
